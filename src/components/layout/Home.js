@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import Button from '../layout/ButtonStandard'
 function Home() {
     return (
         <div className={styles.img}>
@@ -14,6 +15,10 @@ function Home() {
                         e Krav Magá.
 
                 </p>
+            </div>
+            <div>
+            <Button text="Contrate online"></Button>
+            <Button  text="Contrate Conheça a Versus"></Button>
             </div>
         </div>
     )

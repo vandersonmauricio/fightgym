@@ -3,10 +3,10 @@ import styles from '../styles/Footer.module.css'
 function Footer (){
     return (
        <footer className={styles.footer}>
-        <div>
+        <div className={styles.textimg}>
             <div>
                 <h1>Aceitamos <section className={styles.fontorange}>
-                    <br/> Gympass</section></h1>
+                    <br/>Gympass</section></h1>
             </div>
             <div>
                 <span>

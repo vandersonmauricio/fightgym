@@ -1,5 +1,17 @@
-
 .img{
     background-image: url("../../components/img/site.jpg");
     width: 100%;
+    background-color: #000;
+    background-size: cover;
+    background-position: bottom center;
+    opacity: 1;
+    
+}
+.img div{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.img div button{
+    background-color: red;
 }
